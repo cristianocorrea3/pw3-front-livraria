@@ -1,0 +1,59 @@
+<%- include('../partials/header.ejs') %>
+
+<div class="container">
+
+    <%- include('../partials/menu.ejs') %>
+
+    <div class="card">
+
+        <div class="card-header">
+            <h3>CADASTRO DE LIVROS</h3>
+        </div>
+
+        <div class="card-body">
+
+            <form action="http://localhost:3000/livro/cadastrarLivro" method="post" enctype="multipart/form-data">
+
+                <input class="form-control mt-2" type="text" 
+                    name="titulo" id="nome_categoria"
+                    placeholder="TÍTULO DO LIVRO">
+
+                    <select class="form-control mt-2" name="tblCategoriaumId" id="tblCategoriaumId">
+
+
+                        <% categorias.forEach(categoria=>{ %>
+
+                            <option value="<%= categoria.id %>"><%= categoria.nome_categoria %></option>
+
+                        <% }); %>
+
+                    </select>
+
+                    <input class="form-control mt-2" type="file"
+                    name="files" id="files">
+
+                    <input class="form-control mt-2" type="file"
+                    name="files"  id="files">
+
+                    <input class="form-control mt-2" type="text" 
+                    name="preco" id="nome_categoria"
+                    placeholder="PREÇO DO LIVRO">
+
+                    <textarea name="detalhes" class="form-control mt-2" cols="100" rows="20"></textarea>
+
+                    <button class="btn btn-success mt-2">CADATRAR</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+
+<%- include('../partials/footer.ejs') %>
+
+</html>
