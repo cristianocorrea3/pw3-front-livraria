@@ -4,9 +4,9 @@
 
 ## DESCRIÇÃO DO PROJETO
 <p align="justify">
-Trata-se de um projeto de front-end sendo executado em NODEJS com uso de da "view egine" EJS. A finalidade do projeto é demonstrar para os alunos(as) do curso de Desenvolvimento de sistemas uma forma de acessar por meio do AXIOS uma API tabém desenvolvida em NODEJS.
+Trata-se de um projeto de front-end sendo executado em NODEJS com uso de da "view engine" EJS. A finalidade do projeto é demonstrar para os alunos(as) do curso de Desenvolvimento de sistemas uma forma de acessar por meio do AXIOS uma API também desenvolvida em NODEJS.
 
-A tematica utilizada para as demostrações de contrução do front-end é de uma livraria on-line. <strong>VALE RESSALTAR AQUI QUE O PROJETO É DE CUNHO DE DIDÁTICO, ESTÁ BEM SIMPLES E AINDA PRECISA DE DIVERSAS IMPLEMENTAÇÕES</strong> 
+A temática utilizada para as demonstrações de construção do front-end é de uma livraria on-line. <strong>VALE RESSALTAR AQUI QUE O PROJETO É DE CUNHO DE DIDÁTICO, ESTÁ BEM SIMPLES E AINDA PRECISA DE DIVERSAS IMPLEMENTAÇÕES</strong> 
 </p>
 
 ## FERRAMENTAS E TECNOLOGIAS UTILIZADAS
