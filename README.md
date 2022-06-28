@@ -11,7 +11,15 @@ A tematica utilizada para as demostrações de contrução do front-end é de um
 
 ## FERRAMENTAS E TECNOLOGIAS UTILIZADAS
 
+<a href="#">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width=100 />        
+</a>
+<a href="#"> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width=100 />
+</a>
+<a href="#">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width=100 />
+</a>
+<a href="#">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width=100 />
+</a>
