@@ -29,7 +29,7 @@ app.get('/listagemCategorias', (req, res)=>{
 	1 - URL DA ROTA
 	2 - CALLBACK DA RESPOSTA DA CHAMADA
 	**/
-axios.get(urlListarCategoria)
+	axios.get(urlListarCategoria)
 		.then((response)=>{
 			console.log(response.data);
 			let categorias = response.data;

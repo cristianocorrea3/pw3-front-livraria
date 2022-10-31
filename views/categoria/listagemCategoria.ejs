@@ -11,13 +11,16 @@
 			</div>
 			
 			<% categorias.forEach(categoria=>{ %>
-				<div class="card mt-2">
+				<div class="card mt-2 p-1">
+					
 					<div class="card-body">
 						<%= categoria.nome_categoria %>
 					</div>
 
-					<a href="/editarCategorias/<%= categoria.id %>" class="btn btn-success">EDITAR</a>
-					<a href="/excluirCategoria/<%= categoria.id %>" class="btn btn-danger mt-1">EXCLUIR</a>
+					<div class="btn-group mr-2">
+						<a href="/editarCategorias/<%= categoria.id %>" class="btn btn-success btn-sm mr-2 ml-2">EDITAR</a>
+						<a href="/excluirCategoria/<%= categoria.id %>" class="btn btn-danger btn-sm mr-2">EXCLUIR</a>
+					</div>
 
 				</div>
 
